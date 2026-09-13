@@ -1,0 +1,21 @@
+product_id,product_name,category,purchases,units_sold,revenue_usd
+P001,Aurora Wireless Headphones,Electronics,7,18,1498.32
+P002,"Nimbus 14"" Laptop",Electronics,40,125,73888.65
+P003,Pulse Smartwatch,Electronics,7,17,2528.07
+P004,Pixel Pro Camera 4K,Electronics,7,24,9266.40
+P005,UrbanFit Running Jacket,Clothing,7,21,1575.79
+P006,TrailFlex Hiking Boots,Clothing,7,22,2380.00
+P007,CoreStretch Yoga Leggings,Clothing,7,19,919.81
+P008,Classic Cotton T-Shirt,Clothing,7,15,357.35
+P009,AeroFlow Running Watch,Sports,3,6,1179.94
+P010,Summit 45L Backpack,Sports,7,21,1852.65
+P011,Velocity Cycling Helmet,Sports,7,28,1666.99
+P012,FitNation Dumbbell Set 20kg,Sports,7,19,2536.75
+P013,CuisinePro Non-Stick Pan Set,Home & Kitchen,7,25,2137.50
+P014,BrewMaster Electric Kettle,Home & Kitchen,7,21,1160.80
+P015,ComfortLux Memory Foam Pillow,Home & Kitchen,7,23,985.68
+P016,Organix Bamboo Storage Boxes,Home & Kitchen,7,22,687.55
+P017,Quantum USB-C Hub 7-in-1,Electronics,7,27,1644.77
+P018,Prestige Thriller Collection,Books,7,16,561.85
+P019,Data Science Handbook,Books,7,21,1126.90
+P020,World Atlas Deluxe Edition,Books,3,10,715.91

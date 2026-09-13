@@ -1,0 +1,21 @@
+product_id,product_name,category,web_views,purchases,revenue_usd,conversion_rate_pct
+P002,"Nimbus 14"" Laptop",Electronics,232,40,73888.65,17.24
+P009,AeroFlow Running Watch,Sports,192,3,1179.94,1.56
+P003,Pulse Smartwatch,Electronics,144,7,2528.07,4.86
+P008,Classic Cotton T-Shirt,Clothing,138,7,357.35,5.07
+P001,Aurora Wireless Headphones,Electronics,136,7,1498.32,5.15
+P013,CuisinePro Non-Stick Pan Set,Home & Kitchen,134,7,2137.5,5.22
+P017,Quantum USB-C Hub 7-in-1,Electronics,130,7,1644.77,5.38
+P014,BrewMaster Electric Kettle,Home & Kitchen,127,7,1160.8,5.51
+P010,Summit 45L Backpack,Sports,121,7,1852.65,5.79
+P007,CoreStretch Yoga Leggings,Clothing,113,7,919.81,6.19
+P004,Pixel Pro Camera 4K,Electronics,102,7,9266.4,6.86
+P005,UrbanFit Running Jacket,Clothing,94,7,1575.79,7.45
+P015,ComfortLux Memory Foam Pillow,Home & Kitchen,88,7,985.68,7.95
+P018,Prestige Thriller Collection,Books,85,7,561.85,8.24
+P006,TrailFlex Hiking Boots,Clothing,85,7,2380.0,8.24
+P012,FitNation Dumbbell Set 20kg,Sports,82,7,2536.75,8.54
+P011,Velocity Cycling Helmet,Sports,81,7,1666.99,8.64
+P016,Organix Bamboo Storage Boxes,Home & Kitchen,74,7,687.55,9.46
+P019,Data Science Handbook,Books,63,7,1126.9,11.11
+P020,World Atlas Deluxe Edition,Books,38,3,715.91,7.89

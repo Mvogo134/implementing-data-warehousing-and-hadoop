@@ -1,0 +1,33 @@
+services:
+  hadoop:
+    build:
+      context: .
+      dockerfile: hadoop-node.Dockerfile
+    container_name: hadoop-single-node
+    hostname: hadoop
+    working_dir: /workspace
+    volumes:
+      # Mount the entire project so mapper.py / reducer.py / data are visible
+      - ../:/workspace
+    ports:
+      - "9870:9870" # HDFS Web UI
+      - "8088:8088" # YARN Web UI
+      - "9000:9000" # HDFS RPC
+      - "10000:10000" # HiveServer2
+      - "10002:10002" # HiveServer2 Web UI
+    environment:
+      - HADOOP_HOME=/opt/hadoop
+      - HIVE_HOME=/opt/hive
+      - PIG_HOME=/opt/pig
+      - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+      - PATH=/opt/hadoop/bin:/opt/hadoop/sbin:/opt/hive/bin:/opt/pig/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    user: root
+    stdin_open: true # keep stdin open for interactive shell
+    tty: true # allocate pseudo-tty
+    # Give enough memory for Hive (on top of Hadoop JVM)
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+    restart: "no"
+
